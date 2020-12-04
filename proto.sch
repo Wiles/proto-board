@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L proto-rescue:CONN_01X06 J3
+U 1 1 5A1DFF3E
+P 14350 4250
+F 0 "J3" H 14428 4291 50  0000 L CNN
+F 1 "CONN_01X06" H 14428 4200 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 14350 4250 50  0001 C CNN
+F 3 "" H 14350 4250 50  0001 C CNN
+	1    14350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L proto-rescue:CONN_01X06 J4
+U 1 1 5A1DFF88
+P 14350 5100
+F 0 "J4" H 14428 5141 50  0000 L CNN
+F 1 "CONN_01X06" H 14428 5050 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 14350 5100 50  0001 C CNN
+F 3 "" H 14350 5100 50  0001 C CNN
+	1    14350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 4500 14100 4500
+Wire Wire Line
+	14100 4500 14100 4400
+Wire Wire Line
+	14150 4000 14100 4000
+Connection ~ 14100 4000
+Wire Wire Line
+	14150 4100 14100 4100
+Connection ~ 14100 4100
+Wire Wire Line
+	14150 4200 14100 4200
+Connection ~ 14100 4200
+Wire Wire Line
+	14150 4300 14100 4300
+Connection ~ 14100 4300
+Wire Wire Line
+	14150 4400 14100 4400
+Connection ~ 14100 4400
+Wire Wire Line
+	14150 4850 14100 4850
+Wire Wire Line
+	14100 4850 14100 4950
+Wire Wire Line
+	14150 5350 14100 5350
+Connection ~ 14100 5350
+Wire Wire Line
+	14150 5250 14100 5250
+Connection ~ 14100 5250
+Wire Wire Line
+	14150 5150 14100 5150
+Connection ~ 14100 5150
+Wire Wire Line
+	14150 5050 14100 5050
+Connection ~ 14100 5050
+Wire Wire Line
+	14150 4950 14100 4950
+Connection ~ 14100 4950
+$Comp
+L power:GND #PWR03
+U 1 1 5A1E04E9
+P 14100 5450
+F 0 "#PWR03" H 14100 5200 50  0001 C CNN
+F 1 "GND" H 14105 5277 50  0000 C CNN
+F 2 "" H 14100 5450 50  0001 C CNN
+F 3 "" H 14100 5450 50  0001 C CNN
+	1    14100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5A1E055D
+P 14100 3900
+F 0 "#PWR04" H 14100 3750 50  0001 C CNN
+F 1 "+5V" H 14115 4073 50  0000 C CNN
+F 2 "" H 14100 3900 50  0001 C CNN
+F 3 "" H 14100 3900 50  0001 C CNN
+	1    14100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 4000 14100 3900
+Wire Wire Line
+	14100 4100 14100 4000
+Wire Wire Line
+	14100 4200 14100 4100
+Wire Wire Line
+	14100 4300 14100 4200
+Wire Wire Line
+	14100 4400 14100 4300
+Wire Wire Line
+	14100 5350 14100 5450
+Wire Wire Line
+	14100 5250 14100 5350
+Wire Wire Line
+	14100 5150 14100 5250
+Wire Wire Line
+	14100 5050 14100 5150
+Wire Wire Line
+	14100 4950 14100 5050
+$EndSCHEMATC
