@@ -43,3 +43,7 @@ out/
 
 # kicad backup
 proto-backups/
+
+# gerbers
+gerber.zip
+gerber/
